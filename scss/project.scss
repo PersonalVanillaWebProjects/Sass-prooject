@@ -1,12 +1,16 @@
 @import "./config";
 @import "./home";
 @import "./menu";
+@import "./about";
+@import "./contact";
+@import "./projects";
+@import "./reponsive";
 
 body {
   background: $primary-color;
   color: set-text-color($primary-color);
   height: 100vh;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif !important;
   line-height: 1;
 }
 
