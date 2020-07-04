@@ -1,0 +1,19 @@
+@import "./resets";
+@import "./variables";
+
+body {
+  background-color: $primary-color;
+  color: $text-color;
+}
+
+.main {
+  width: 80%;
+  margin: 0 auto;
+  #{&}__paragraph {
+    font-weight: map-get($fontWeights, bold);
+
+    &:hover {
+      color: pink;
+    }
+  }
+}
